@@ -1,0 +1,51 @@
+#div1
+{
+    width: 1012px;
+    background-color: silver;
+    color: maroon;
+
+}
+#ul1
+{
+    list-style-type: square;
+    font-size: 7mm;
+    color:purple;
+
+}
+#sp1_1
+{
+    font-size: 1.5cm;
+}
+#sp1_2
+{
+    font-size: 1.1cm;
+}
+#div2
+{
+    width: 1112px;
+    background-color: red;
+    color: silver;
+    font-size: 1cm;
+
+}
+#ul2
+{
+    list-style-type: disc;
+    font-size: 8mm;
+    color:purple;
+
+}
+#div3
+{
+    width: 1212px;
+    background-color: maroon;
+    color: silver;
+    font-size: 9mm;
+}
+#ul3
+{
+    list-style-type: circle;
+    font-size: 7mm;
+    color:red;
+
+}
