@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Zadania36_Kod</title>
+</head>
+<body>
+    <h1>HTML</h1>
+    <textarea readonly="true" rows="30%" cols="70%">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link href="Zd66.css" rel="stylesheet" type="text/CSS">
+        </head>
+        <body>
+            <p class="f">Pseudoelementem :first-line, który obejmuje formatowaniem całą<br>
+                pierwszą linię.</p>
+            <p class="s">
+                pseudoelementy: :after oraz :before.
+        Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+        pseudoelementy: :after oraz :before. Oba elementy służą do umieszczania tekstu przed i za
+        formatowanym elementem strony.
+            </p> 
+        
+            <p class ="t">Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku
+                tekstu.
+                Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+                nadanie jej koloru czerwonego.</p>
+        
+        
+        
+        </body>
+        </html>
+    </textarea>
+    <h1>CSS</h1>
+    <textarea readonly="true" rows="30%" cols="70%">
+        p.f
+        {
+        color:navy;
+        font-size:12pt;
+        }
+       p.f:first-line
+        {
+        color:red;
+        font-size:20pt;
+        font-weight:bold;
+        }
+       
+       
+       p.s:before
+        {
+        content:"TO SĄ ĆWICZENIA";
+        font-size:15pt;
+        font-style:italic;
+        font-weight:bold;
+        }
+       p.s:after
+        {
+        content:"AUTOR Król Lew";
+        font-size:15pt;
+        font-style:italic;
+        font-weight:bold;
+        }
+        p.t
+        {
+        color:navy;
+        font-size:30pt;
+        }
+       p.t:first-letter
+        {
+        color:red;
+        font-size:100pt;
+        }
+          
+    </textarea>
+</body>
+</html>

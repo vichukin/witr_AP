@@ -1,0 +1,19 @@
+/* Hover - pozwala nadać określone atrybuty formatowania dla elementów, nad którymi znajduje się wskaźnik myszki, kiedy użytkownik jeszcze ich nie kliknął, tzn. nie zostały jeszcze aktywowane. */
+/* Dmytro Vychkin */
+div{
+    width: 632px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+#blok1_vychkin:hover{
+    background-color: gold;
+    font-size: 21mm;
+}
+#blok2_vychkin:hover{
+    background-color: silver;
+    font-size: 21mm;
+}
+#blok3_vychkin:hover{
+    background-color: blue;
+    font-size: 21mm;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Zadania36_Kod</title>
+</head>
+<body>
+    <h1>HTML</h1>
+    <textarea readonly="true" rows="30%" cols="70%">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" type="text/css" href="Zd67.css">
+        </head>
+        <body>
+            <p class="first">VPN to skrót od wirtualnej sieci prywatnej (ang. virtual private network) — usługi, która chroni Twoje połączenie internetowe i prywatność online.</p>
+            <p class="second">DHCP to protokół klient/serwer, który automatycznie udostępnia hostowi protokołu internetowego (IP) swój adres IP i inne powiązane informacje konfiguracyjne, takie jak maska podsieci i brama domyślna.</p>
+            <h1>CSS są piękne</h1>
+            <p class="third">Kolejnym pseudoelementem jest :first-line, który w przeciwieństwie do
+                <br> 
+                poprzednika obejmuje formatowaniem całą pierwszą linię, a nie tylko pierwszą literę</p>
+        </body>
+        </html>
+    </textarea>
+    <h1>CSS</h1>
+    <textarea readonly="true" rows="30%" cols="70%">
+        p.first:first-letter{
+            font-size: 117pt;
+            color: blue;
+        }
+        p.first{
+            font-size: 21pt;
+            color: red;
+        }
+        p.second:first-letter{
+            font-size: 117pt;
+            color: lightgreen;
+        }
+        p.second{
+            font-size: 20pt;
+            color: red;
+        }
+        h1{
+            color: violet;
+            font-size: 300%;
+        }
+        h1::first-letter{
+            font-size: 400%;
+            color: silver;
+        }
+        p.third{
+            font-size: 35pt;
+            color: navy ;
+        }
+        p.third::first-letter{
+            color: red;
+            font-weight: bold;
+            font-size: 70pt;
+        }
+        p.third::first-line{
+            color: red;
+            font-weight: bold;
+        }
+    </textarea>
+</body>
+</html>
