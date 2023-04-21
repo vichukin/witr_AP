@@ -1,0 +1,19 @@
+p
+{
+font-size: 8mm;
+color:blue;
+}
+p:lang(pl)
+{
+font-size: 9mm;
+color:lightgreen;
+}
+p:lang(en)
+{
+font-size: 13mm;
+color:red;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
